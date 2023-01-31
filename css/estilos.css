@@ -1,0 +1,31 @@
+/* Paleta de colores
+#000000
+#282A3A
+#735F32
+#C69749 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    background-color: #000000;
+}
+
+
+
+
+/* Nav */
+
+#navbar {
+    background-color: #C69749;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbarNav ul li:hover {
+    font-weight: bold;
+}
+
+#navbarNav ul li:active {
+    font-weight:bold;
+    text-decoration:underline;
+}

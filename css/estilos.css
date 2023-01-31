@@ -6,11 +6,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 
 body {
     background-color: #000000;
 }
 
+p, div {
+    color: #735F32;
+}
 
 
 
@@ -18,7 +25,6 @@ body {
 
 #navbar {
     background-color: #C69749;
-    font-family: 'Roboto', sans-serif;
 }
 
 #navbarNav ul li:hover {
@@ -26,8 +32,8 @@ body {
 }
 
 #navbarNav ul li:active {
-    font-weight:bold;
-    text-decoration:underline;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /* footer */
@@ -35,7 +41,7 @@ body {
 .pie {
     text-align: center;
     padding: 22px;
-    background-color:#C69749 ;
+    background-color: #C69749;
 }
 
 
@@ -52,11 +58,17 @@ body {
 
 .formulario {
     text-align: center;
-    padding: 20px 50px;
+    padding: 20px;
+    color: #735F32;
 }
 
+
 .btnenviar {
-    background-color: #C69749;
+    background-color: #735F32;
+}
+
+.btnenviar:hover {
+    border: solid #C69749 1px;
 }
 
 
@@ -64,4 +76,12 @@ body {
 
 .imgintegrantes {
     width: 80%;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* boton de page contactos */
+
+.fondofecha {
+    background-color:#282A3A;
 }

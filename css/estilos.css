@@ -29,3 +29,32 @@ body {
     font-weight:bold;
     text-decoration:underline;
 }
+
+/* footer */
+
+.pie {
+    text-align: center;
+    padding: 22px;
+    background-color:#C69749 ;
+}
+
+
+
+
+/*  */
+
+.sector__video {
+    padding: 20px;
+    text-align: center;
+}
+
+/* formulario */
+
+.formulario {
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.btnenviar {
+    background-color: #C69749;
+}
